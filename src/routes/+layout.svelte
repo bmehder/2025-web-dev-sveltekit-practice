@@ -5,11 +5,11 @@
 </script>
 
 <div class="wrapper">
-	<Header></Header>
+	<Header />
 	<main>
-		<slot></slot>
+		<slot />
 	</main>
-	<Footer></Footer>
+	<Footer />
 </div>
 
 <style>

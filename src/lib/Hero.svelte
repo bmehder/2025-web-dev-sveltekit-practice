@@ -1,5 +1,5 @@
 <section>
-	<div class="boxed space">
+	<div class="inner">
 		<div class="hero-content flow bg-gradient-blue white">
 			<h1>Lorem ipsum dolor sit</h1>
 			<p class="white">
@@ -18,7 +18,7 @@
 		background-size: cover;
 	}
 
-	.space {
+	.inner {
 		padding-block: 8rem;
 	}
 

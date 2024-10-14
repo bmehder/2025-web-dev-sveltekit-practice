@@ -8,9 +8,9 @@
 
 <style>
 	div {
-		padding-block: 4rem 3rem;
+		padding-block: 4rem;
 		padding-inline: 2rem;
-		font-size: 1.25em;
+		font-size: 1.25rem;
 		border-radius: 1rem;
 	}
 </style>

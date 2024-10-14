@@ -5,7 +5,7 @@
 <Title title="About" />
 
 <section>
-	<div class="boxed space flow">
+	<div class="inner flow">
 		<h2>Subheading One</h2>
 
 		<div class="columns flow">

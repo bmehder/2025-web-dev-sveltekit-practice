@@ -1,13 +1,13 @@
 <script>
 	import Hero from '$lib/Hero.svelte'
-	import HeadingBox from '$lib/HeadingBox.svelte'
-	import Box from '$lib/Box.svelte'
+	import HeadingBox from '$lib/Boxes/HeadingBox.svelte'
+	import Box from '$lib/Boxes/Box.svelte'
 </script>
 
-<Hero></Hero>
+<Hero />
 
 <section class="bg-gradient-gray">
-	<div class="boxed space auto-fit">
+	<div class="inner auto-fit">
 		<HeadingBox heading="Check out our most popular categories!" />
 		<Box heading="Animation" icon="/icons/icon-animation.svg" />
 		<Box heading="Business" icon="/icons/icon-business.svg" />
@@ -18,7 +18,7 @@
 </section>
 
 <style>
-	.space {
+	.inner {
 		padding-block: 8rem;
 	}
 </style>

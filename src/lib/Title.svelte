@@ -3,7 +3,7 @@
 </script>
 
 <section class="bg-blue white">
-	<div class="boxed space">
+	<div class="inner">
 		<h1>{title}</h1>
 	</div>
 </section>

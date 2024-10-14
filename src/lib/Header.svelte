@@ -1,6 +1,7 @@
 <header>
-	<div class="boxed space spread-apart">
+	<div class="inner spread-apart">
 		<a href="/"><img src="/logo-dark.svg" alt="dark logo" /></a>
+
 		<nav>
 			<ul class="spread-apart">
 				<li>
@@ -24,7 +25,7 @@
 </header>
 
 <style>
-	.space {
+	.inner {
 		padding-block: 1.5rem;
 	}
 

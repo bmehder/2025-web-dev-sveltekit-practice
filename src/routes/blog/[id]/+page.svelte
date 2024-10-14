@@ -4,10 +4,10 @@
 	export let data
 </script>
 
-<Title title={data.post.title}></Title>
+<Title title={data.post.title} />
 
 <section>
-	<div class="boxed space flow">
+	<div class="inner flow">
 		<div>{data.post.body}</div>
 	</div>
 </section>
