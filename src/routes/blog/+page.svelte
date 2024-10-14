@@ -1,0 +1,24 @@
+<script>
+	import Title from '$lib/Title.svelte'
+
+	export let data
+</script>
+
+<Title title="Blog" />
+
+<section>
+	<div class="boxed space auto-fit">
+		{#each data.posts as post}
+			<div class="flow">
+				<h2><a href="/blog/{post.id}">{post.title}</a></h2>
+				<p>{post.body}</p>
+			</div>
+		{/each}
+	</div>
+</section>
+
+<style>
+	h2 {
+		text-transform: capitalize;
+	}
+</style>
