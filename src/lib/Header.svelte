@@ -30,6 +30,7 @@
 	}
 
 	ul {
+		justify-content: start;
 		list-style: none;
 	}
 
