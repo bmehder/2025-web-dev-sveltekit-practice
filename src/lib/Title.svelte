@@ -1,11 +1,11 @@
 <script>
-	export let title
+	export let name
 </script>
 
 <section>
-	<div class="bg-blue white">
+	<div class="outer bg-blue white">
 		<div class="inner">
-			<h1>{title}</h1>
+			<h1>{name}</h1>
 		</div>
 	</div>
 </section>

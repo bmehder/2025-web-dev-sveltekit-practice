@@ -4,16 +4,18 @@
 	export let data
 </script>
 
-<Title title={data.post.title} />
+<Title name={data.post.title} />
 
 <section>
-	<div class="inner flow">
-		<div>{data.post.body}</div>
+	<div class="outer">
+		<div class="inner flow">
+			<div class="post-body">{data.post.body}</div>
+		</div>
 	</div>
 </section>
 
 <style>
-	div > div {
+	.post-body {
 		max-width: 65ch;
 	}
 </style>

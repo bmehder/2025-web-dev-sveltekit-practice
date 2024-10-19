@@ -3,7 +3,7 @@
 
 /* CSS Custom Properties (aka - 'CSS Variables or CSS Vars') */
 :root {
-	--white: white;
+	--white: hsl(0, 0%, 100%);
 	--gray: hsl(232 10% 56%);
 	--blue: hsl(233 54% 16%);
 	--pink: hsl(341 92% 62%);
@@ -96,6 +96,7 @@ li {
 /* Typography */
 body {
 	font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+	font-size: 1rem;
 	font-weight: 500;
 	line-height: 1.6;
 }
@@ -136,7 +137,7 @@ button,
 	padding-inline: 1.75rem;
 	text-align: center;
 	border: none;
-	border-radius: 1.5rem;
+	border-radius: 2rem;
 }
 
 button:hover,

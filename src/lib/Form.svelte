@@ -36,14 +36,8 @@
 		</div>
 
 		<div class="input-group">
-			<label for="tel">Phone <span>*</span></label>
-			<input
-				type="tel"
-				id="tel"
-				name="tel"
-				placeholder="Enter phone number..."
-				required
-			/>
+			<label for="tel">Phone (Optional)</label>
+			<input type="tel" id="tel" name="tel" placeholder="Enter phone number..." />
 		</div>
 
 		<div class="input-group">
@@ -57,7 +51,7 @@
 			></textarea>
 		</div>
 
-		<button class="bg-blue white">Send Message</button>
+		<button type="submit" class="bg-blue white">Send Message</button>
 	</div>
 </form>
 
@@ -86,6 +80,6 @@
 	}
 
 	button:hover {
-		background: var(--gradient-pink);
+		background-image: var(--gradient-pink);
 	}
 </style>

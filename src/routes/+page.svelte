@@ -1,20 +1,20 @@
 <script>
 	import Hero from '$lib/Hero.svelte'
-	import HeadingBox from '$lib/Boxes/HeadingBox.svelte'
-	import Box from '$lib/Boxes/Box.svelte'
+	import HeadingBox from '$lib/HeadingBox.svelte'
+	import Box from '$lib/Box.svelte'
 </script>
 
 <Hero />
 
 <section>
-	<div class="bg-gradient-gray">
+	<div class="outer bg-gradient-gray">
 		<div class="inner auto-fit">
 			<HeadingBox heading="Check out our most popular categories!" />
-			<Box heading="Animation" icon="/icons/icon-animation.svg" />
-			<Box heading="Business" icon="/icons/icon-business.svg" />
-			<Box heading="Design" icon="/icons/icon-design.svg" />
-			<Box heading="Photography" icon="/icons/icon-photography.svg" />
-			<Box heading="Programming" icon="/icons/icon-programming.svg" />
+			<Box heading="Animation" src="/icons/icon-animation.svg" />
+			<Box heading="Business" src="/icons/icon-business.svg" />
+			<Box heading="Design" src="/icons/icon-design.svg" />
+			<Box heading="Photography" src="/icons/icon-photography.svg" />
+			<Box heading="Programming" src="/icons/icon-programming.svg" />
 		</div>
 	</div>
 </section>

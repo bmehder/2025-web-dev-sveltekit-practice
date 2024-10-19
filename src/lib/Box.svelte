@@ -1,5 +1,5 @@
 <script>
-	export let icon
+	export let src
 	export let heading = ''
 	export let description =
 		'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas labore aut.'
@@ -8,7 +8,7 @@
 </script>
 
 <div class="bg-white flow">
-	<img src={icon} alt="" />
+	<img {src} alt="" />
 	<h3>{heading}</h3>
 	<p>{description}</p>
 	<a {href}>{@html linkText}</a>
@@ -23,7 +23,7 @@
 	}
 
 	img {
-		width: 3.5rem;
+		max-width: 3.5rem;
 		position: absolute;
 		top: -2rem;
 	}

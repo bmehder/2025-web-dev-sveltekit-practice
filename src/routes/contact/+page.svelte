@@ -3,7 +3,7 @@
 	import Form from '$lib/Form.svelte'
 </script>
 
-<Title title="Contact" />
+<Title name="Contact" />
 
 <section>
 	<div class="inner">

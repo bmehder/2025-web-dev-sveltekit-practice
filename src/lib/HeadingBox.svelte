@@ -1,5 +1,5 @@
 <script>
-	export let heading = 'Add Some Text!!!!!!!!'
+	export let heading = 'Add Heading Prop!!!!!!!!'
 </script>
 
 <div class="bg-gradient-pink white">
